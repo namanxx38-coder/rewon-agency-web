@@ -11,8 +11,8 @@ const teamMembers = [
     image: "/images/team/amit.png",
   },
   {
-    name: "Khushi",
-    image: "/images/team/khushi.png",
+    name: "Tanishq",
+    image: "/images/team/tanishq.png",
   },
   {
     name: "Navdeep Sharma",

@@ -6,32 +6,32 @@ const team = [
   {
     name: 'NAVDEEP SHARMA',
     role: 'Founder & Website Systems Developer',
-    img: '/images/team/member-3.jpg',
+    img: '/images/team/navdeep.png',
     desc: 'Founder & Website Systems Developer. Builds high-converting websites and complete digital systems that help businesses generate leads, trust, and long-term growth.',
     highlight: true,
   },
   {
     name: 'AMIT KUMAR',
     role: 'UI/UX Designer',
-    img: '/images/team/member-5.jpg',
+    img: '/images/team/amit.png',
     desc: 'Designs clean, modern, and conversion-focused user experiences that make brands look premium and trustworthy.',
   },
   {
     name: 'AJAY',
     role: 'Ads & Performance Marketing Specialist',
-    img: '/images/team/member-1.jpg',
+    img: '/images/team/ajay.png',
     desc: 'Runs high-performance ad campaigns focused on lead generation, customer acquisition, and business scaling.',
   },
   {
     name: 'UMESH',
     role: 'Social Media & Content Manager',
-    img: '/images/team/member-4.jpg',
+    img: '/images/team/umesh.png',
     desc: 'Manages content systems, audience engagement, and social media growth strategies for brands.',
   },
   {
     name: 'KHUSHI',
     role: 'Client Support & Communication Manager',
-    img: '/images/team/member-2.jpg',
+    img: '/images/team/khushi.png',
     desc: 'Handles client communication, updates, coordination, and support to ensure smooth project delivery.',
   },
   {
