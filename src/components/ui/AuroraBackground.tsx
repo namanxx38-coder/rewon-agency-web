@@ -67,13 +67,13 @@ export const AuroraBackground: React.FC = () => {
                     vec4 o=vec4(0.);
                     float f=2.+fbm(p+vec2(iTime*2.0,0.))*.5;
                     
-                    for(float i=0.;i++<35.;){
+                    for(float i=0.;i++<20.;){
                         vec2 v=p+cos(i*i+(iTime+p.x*.08)*.025+i*vec2(13.,11.))*3.5;
-                        float tailNoise=fbm(v+vec2(iTime*.5,i))*.3*(1.-(i/35.));
+                        float tailNoise=fbm(v+vec2(iTime*.5,i))*.3*(1.-(i/20.));
                         // Deep Purple to Electric Blue palette
                         vec4 auroraColors=vec4(.1+.3*sin(i*.2+iTime*.4),.3+.5*cos(i*.3+iTime*.5),.7+.3*sin(i*.4+iTime*.3),1.);
                         vec4 currentContribution=auroraColors*exp(sin(i*i+iTime*.8))/length(max(v,vec2(v.x*f*.015,v.y*1.5)));
-                        float thinnessFactor=smoothstep(0.,1.,i/35.)*.6;
+                        float thinnessFactor=smoothstep(0.,1.,i/20.)*.6;
                         o+=currentContribution*(1.+tailNoise*.8)*thinnessFactor;
                     }
                     

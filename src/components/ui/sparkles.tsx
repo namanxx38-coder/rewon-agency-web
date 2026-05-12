@@ -8,7 +8,7 @@ export function Sparkles({
   className,
   size = 1,
   minSize = null,
-  density = 800,
+  density = 400,
   speed = 1,
   minSpeed = null,
   opacity = 1,
@@ -40,7 +40,7 @@ export function Sparkles({
       enable: false,
       zIndex: 1,
     },
-    fpsLimit: 120,
+    fpsLimit: 60,
     particles: {
       color: {
         value: color,

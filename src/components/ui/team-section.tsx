@@ -1,6 +1,7 @@
 'use client';
 import * as React from "react";
 import { motion, useAnimation } from "framer-motion";
+import Image from 'next/image';
 import { useInView } from "react-intersection-observer";
 import { cn } from "@/lib/utils"; // Assuming you have a `cn` utility for classnames
 
@@ -116,9 +117,10 @@ const AnimatedTeamSection = React.forwardRef<
                 transition: { type: "spring", stiffness: 300, damping: 20 },
               }}
             >
-              <img
+              <Image
                 src={member.image}
                 alt={member.name}
+                fill
                 className="w-full h-full object-cover"
               />
             </motion.div>
